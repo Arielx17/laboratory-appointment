@@ -1,0 +1,940 @@
+
+// 公共样式
+
+
+body{
+	
+	
+	line-height: normal;
+}
+
+// 顶部导航插槽
+.navbar-slot{
+	display: flex;
+	margin: 0 20rpx;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	
+	.title{
+		font-size: $uni-font-size-subtitle;
+		text-align:center; 
+		position: absolute;
+		left: 0;
+		right: 0;
+	}
+	
+	.search{
+		flex:auto;
+		margin-right:20rpx
+	}
+	
+	.icon-group{
+		margin-left: auto;
+		.u-icon{
+					margin-right: 20rpx;
+			font-size: 50rpx;
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+		
+		}
+		
+		.button-group{
+			display: flex;
+			align-items: center;
+			
+			.u-btn{
+				margin-left: 20rpx ;
+			}
+			
+			.u-size-default{
+				height: 60rpx ;
+				padding: 0 30rpx ;
+				font-size: $uni-font-size-base ;
+			}
+			
+			}
+}
+
+
+// 滑动操作插槽
+.swipe-action-slot{
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	padding:15rpx 20rpx;
+		font-size: 26rpx;
+	.date{
+		color: #909399;
+		font-size: $uni-font-size-base;
+	}
+	
+	.flex-row{
+		display: flex;
+		align-items: center;
+		
+		
+	}
+	
+	.flex-column{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.image {
+		width: 120rpx;
+		height: 120rpx;
+		margin-right: 20rpx;
+		border-radius: 12rpx;
+		flex: none;
+		image{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	
+	.title {
+		font-size: $uni-font-size-lg;
+	}
+	
+	.subtitle{
+		
+		font-size: $uni-font-size-base;
+	}
+	
+}
+
+
+
+
+
+	
+
+  
+  // 通用内容
+  .custom-content{
+      font-size: 28rpx;
+      color: #303133;
+      line-height: 40rpx;
+  }
+  
+  // 通用标题
+  .custom-title{
+  
+      font-size: 34rpx;
+      font-weight: bold;
+      margin: 30rpx 0 20rpx 0;
+    
+  }
+  
+  // 控制元素显示类型
+  .display-b{
+  
+      display: block !important;
+  }
+  
+  .display-ib{
+  
+      display: inline-block !important;
+  
+  }
+  
+  .display-i{
+  
+      display: inline !important;
+  
+  }
+  
+  
+  // 定位
+  .position-s{
+      position: sticky !important;
+  }
+  
+  
+  .position-f{
+      position: fixed !important;
+  }
+  
+  
+  .position-a{
+      position: absolute !important;
+  }
+  
+  .position-r{
+      position: relative !important;
+  }
+  
+  // 控制浏览器如何计算元素的总大小
+  .bs-bb{
+  
+      box-sizing: border-box !important;
+  }
+  
+  .bs-cb{
+  
+      box-sizing: border-box !important;
+  }
+  
+  
+  // 当鼠标悬停在一个元素上时，用于控制光标样式的功能类。
+  
+  .cursor-p	{
+    cursor: pointer !important;
+  }
+  
+  .cursor-n-a	{
+    cursor: not-allowed !important;
+  }
+  
+  .cursor-m	{
+    cursor: move !important;
+  }
+  
+  .cursor-d	{
+    cursor: default !important;
+  }
+  
+  .cursor-t	{
+    cursor: text !important;
+  
+  }
+  
+  .cursor-w	{
+    cursor: wait !important;
+  }
+  
+  .cursor-a	{
+    cursor: auto !important;
+  }
+  
+  .cursor-h	{
+    cursor: help !important;
+  }
+  
+  
+  // 内边距
+  .padding-xs {
+    padding: 8rpx !important;
+  }
+  
+  .padding-s {
+    padding: 16rpx !important;
+  }
+  
+  .padding-m {
+    padding: 24rpx !important;
+  }
+  
+  .padding-l {
+    padding: 32rpx !important;
+  }
+  
+  .padding-xl {
+    padding: 40rpx !important;
+  }
+
+  .padding-xxl {
+    padding: 80rpx !important;
+  }
+  
+  .padding-n{
+    padding: 0 !important;
+  }
+  
+  
+  // 上内边距
+   .pt-xs {
+      padding-top: 8rpx !important;
+    }
+    
+    .pt-s {
+      padding-top: 16rpx !important;
+    }
+    
+    .pt-m {
+      padding-top: 24rpx !important;
+    }
+    
+    .pt-l {
+      padding-top: 32rpx !important;
+    }
+
+    .pt-xl {
+      padding-top: 40rpx !important;
+    }
+  
+    .pt-xxl {
+      padding-top: 80rpx !important;
+    }
+  
+  
+    .pt-n{
+      padding-top: 0 !important;
+    }
+  
+  
+  
+    // 下内边距
+  .pb-xs {
+      padding-bottom: 8rpx !important;
+    }
+    
+    .pb-s {
+      padding-bottom: 16rpx !important;
+    }
+    
+    .pb-m {
+      padding-bottom: 24rpx !important;
+    }
+    
+    .pb-l {
+      padding-bottom: 32rpx !important;
+    }
+  
+    .pb-xl {
+      padding-bottom: 40rpx !important;
+    }
+
+    .pb-xxl {
+      padding-bottom: 80rpx !important;
+    }
+  
+    .pb-n{
+      padding-bottom: 0 !important;
+    }
+  
+  
+    // 左内边距
+  .pl-xs {
+      padding-left: 8rpx !important;
+    }
+    
+    .pl-s {
+      padding-left: 16rpx !important;
+    }
+    
+    .pl-m {
+      padding-left: 24rpx !important;
+    }
+    
+    .pl-l {
+      padding-left: 32rpx !important;
+    }
+  
+    .pl-xl {
+      padding-left: 40rpx !important;
+    }
+    .pl-xl {
+      padding-left: 80rpx !important;
+    }
+  
+    .pl-n{
+      padding-left: 0 !important;
+    }
+    
+  
+  
+    
+  // 右内边距
+  .pr-xs {
+      padding-right: 8rpx !important;
+    }
+    
+    .pr-s {
+      padding-right: 16rpx !important;
+    }
+    
+    .pr-m {
+      padding-right: 24rpx !important;
+    }
+    
+    .pr-l {
+      padding-right: 32rpx !important;
+    }
+  
+    .pr-xl {
+      padding-right: 40rpx !important;
+    }
+    
+    .pr-xxl {
+      padding-right: 80rpx !important;
+    }
+    
+  
+    .pr-n{
+      padding-right: 0 !important;
+    }
+  
+  
+
+      
+  // 外边距
+  .margin-xs {
+    margin: 8rpx !important;
+  }
+  
+  .margin-s {
+    margin: 16rpx !important;
+  }
+  
+  .margin-m {
+    margin: 24rpx !important;
+  }
+  
+  .margin-l {
+    margin: 32rpx !important;
+  }
+
+  .margin-xl {
+    margin: 40rpx !important;
+  }
+
+
+    .margin-xxl {
+    margin: 80rpx !important;
+  }
+
+
+  .margin-n{
+    margin: 0 !important;
+  }
+
+  
+  
+    // 右外边距
+  .mr-xs {
+      margin-right: 8rpx !important;
+    }
+    
+    .mr-s {
+      margin-right: 16rpx !important;
+    }
+    
+    .mr-m {
+      margin-right: 24rpx !important;
+    }
+    
+    .mr-l {
+      margin-right: 32rpx !important;
+    }
+  
+    .mr-xl {
+      margin-right: 40rpx !important;
+    }
+    
+    .mr-xxl {
+      margin-right: 80rpx !important;
+    }
+    .mr-a{
+      margin-right: auto !important;
+    }
+    .mr-n{
+      margin-right: 0 !important;
+    }
+    
+  
+  
+    // 左外边距
+  .ml-xs {
+      margin-left: 8rpx !important;
+    }
+    
+    .ml-s {
+      margin-left: 16rpx !important;
+    }
+    
+    .ml-m {
+      margin-left: 24rpx !important;
+    }
+    
+    .ml-l {
+      margin-left: 32rpx !important;
+    }
+  
+    .ml-xl {
+      margin-left: 40rpx !important;
+    }
+
+    .ml-xxl {
+      margin-left: 80rpx !important;
+    }
+    
+    .ml-a{
+      margin-left: auto !important;
+    }
+    .ml-n{
+      margin-left: 0 !important;
+    }
+  
+  
+    // 上外边距
+  .mt-xs {
+      margin-top: 4px !important;
+    }
+    
+    .mt-s {
+      margin-top: 16rpx !important;
+    }
+    
+    .mt-m {
+      margin-top: 24rpx !important;
+    }
+    
+    .mt-l {
+      margin-top: 32rpx !important;
+    }
+  
+    .mt-xl {
+      margin-top: 40rpx !important;
+    }
+
+    .mt-xxl {
+      margin-top: 80rpx !important;
+    }
+    
+    .mt-a{
+      margin-top: auto !important;
+    }
+    .mt-n{
+      margin-top: 0 !important;
+    }
+    
+
+  
+    // 下外边距
+  .mb-xs {
+      margin-bottom: 4px !important;
+    }
+    
+    .mb-s {
+      margin-bottom: 16rpx !important;
+    }
+    
+    .mb-m {
+      margin-bottom: 24rpx !important;
+    }
+    
+    .mb-l {
+      margin-bottom: 32rpx !important;
+    }
+    
+    .mb-xl {
+      margin-bottom: 40rpx !important;
+    }
+
+    .mb-xxl {
+      margin-bottom: 80rpx !important;
+    }
+  
+    .mb-a{
+      margin-bottom: auto !important;
+    }
+    
+    .mb-n{
+      margin-bottom: 0 !important;
+    }
+  
+  
+
+    
+    // 透明度
+    .opacity-n{
+      opacity: 0 !important;
+    } 
+    
+
+  
+    // 文本水平对齐方式
+  .ta-c{
+      text-align: center !important;
+    
+    }
+    .ta-l{
+      text-align: left !important;
+    
+    }
+    .ta-r{
+      text-align: right !important;
+    }
+
+    .ta-j{
+      text-align: justify !important;
+    
+    }
+  
+  
+    // 宽度
+  
+  .width-xs{
+      width: 100rpx !important;
+    }
+    .width-s{
+      width: 200rpx !important;
+    }
+    
+    .width-m{
+      width: 300rpx !important;
+    }
+    .width-l{
+      width: 400rpx !important;
+    }
+  
+    .width-xl{
+      width: 600rpx !important;
+    }
+    
+    .width-f{
+      width: 100% !important;
+    }
+  
+  
+  
+  
+    // 字体大小
+  .fs-xs{
+      font-size: 24rpx !important;
+    }
+    .fs-s{
+      font-size: 28rpx !important;
+    }
+    .fs-m{
+      font-size: 32rpx !important;
+    }
+    .fs-l{
+      font-size: 36rpx !important;
+    }
+  
+    .fs-xl{
+      font-size: 40rpx !important;
+    }
+	
+	.fs-xxl{
+	  font-size: 48rpx !important;
+	}
+  
+  
+  // 字体粗细
+    .fw-n{
+      font-weight: normal !important;
+    }
+    
+  .fw-b{
+      font-weight: bold !important;
+    }
+    
+  
+  
+    
+  // 颜色主题
+  .color-primary{
+      color: #2979ff !important;
+    }
+    
+    .color-success{
+      color: #19be6b !important;
+    }
+    
+    .color-warning{
+      color: #ff9900 !important;
+    }
+    
+    .color-danger{
+      color: #fa3534 !important;
+    }
+    
+    .color-info{
+      color: #909399 !important;
+    }
+  
+  
+  
+    // 字体颜色
+  .color-b{
+      color: #000000 !important;
+    }
+    
+    .color-w{
+      color: #FFFFFF !important;
+    }
+  
+    .color-s{
+      color: #909399 !important;
+    }
+  
+    .color-m{
+      color: #606266 !important;
+    }
+  
+    .color-l{
+      color: #303133 !important;
+    }
+  
+  
+    // 边框颜色
+    .border-s{
+      border: 1px solid #EBEEF5 !important;
+    }
+    .border-m{
+      border: 1px solid #E4E7ED !important;
+    }
+    .border-l{
+      border: 1px solid #DCDFE6 !important;
+    }
+    
+    
+    // 边框颜色
+    .bb-s{
+      border-bottom: 1px solid #EBEEF5 !important;
+    }
+    .bb-m{
+      border-bottom: 1px solid #E4E7ED !important;
+    }
+    .bb-l{
+      border-bottom: 1px solid #DCDFE6 !important;
+    }
+    
+    
+    
+    // 边框颜色
+    .bt-s{
+      border-top: 1px solid #EBEEF5 !important;
+    }
+    .bt-m{
+      border-top: 1px solid #E4E7ED !important;
+    }
+    .bt-l{
+      border-top: 1px solid #DCDFE6 !important;
+    }
+    
+    
+  
+    
+  
+  
+  
+    // 背景颜色主题
+  .bc-primary{
+      background-color: #2979ff !important;
+    }
+    
+    .bc-success{
+      background-color: #19be6b !important;
+    }
+    
+    .bc-warning{
+      background-color: #ff9900 !important;
+    }
+    
+    .bc-danger{
+      background-color:#fa3534 !important;
+    }
+    
+    .bc-info{
+      background-color: #909399 !important;
+    }
+    
+    .bc-main{
+      background-color: #f0f4f6 !important;
+    }
+    
+    .bc-b{
+        background-color: #000000 !important;
+      }
+    
+    .bc-w{
+        background-color: #ffffff !important;
+      }
+      
+  
+    // flex布局
+  
+  .flex{
+      display: flex;
+      align-items: center;
+    }
+  // 用于控制 flex 项目放大和缩小的功能类。
+  
+  .flex-n{
+    flex: none !important;
+  }
+  
+  
+  .flex-a{
+    flex: 1 1 auto !important;
+  }
+  
+  
+  .flex-1{
+    flex: 1 1 0% !important;
+  }
+    
+  // 控制 Flex 子项的方向的功能类
+  
+  
+  .fd-c{
+    flex-direction: column !important;
+  }
+  
+  .fd-r{
+    flex-direction: row !important;
+  }
+    // 换行
+    .fw-w{
+      flex-wrap: wrap !important;
+      
+    }
+  
+  
+      // align-self属性允许单个项目有与其他项目不一样的对齐方式
+   .as-fs{
+      align-self: flex-start !important;
+    }
+    .as-fe{
+      align-self: flex-end !important;
+    }
+    .as-c{
+      align-self: center !important;
+    }
+    .as-a{
+      align-self: auto !important;
+    }
+    .as-s{
+      align-self: stretch !important;
+    }
+  
+  
+    
+    // Y轴对齐方式
+    .jc-c{
+      justify-content: center !important;
+    }
+    
+    .jc-sb{
+      justify-content: space-between !important;
+    }
+    
+    .jc-fe{
+      justify-content: flex-end !important;
+    }
+    
+    .jc-sa{
+      justify-content: space-around !important;
+    }
+    .jc-fs{
+      justify-content: flex-start !important;
+    }
+    .jc-se{
+      justify-content: space-evenly !important;
+    }
+    
+    
+    // X轴对齐方式
+    .ai-fs{
+      align-items: flex-start !important;  
+    }
+    
+    .ai-fe{
+      align-items: flex-end !important;
+    }
+    .ai-b{
+      align-items: baseline !important;
+    }
+    .ai-s{
+      align-items: stretch !important;
+    }
+    .ai-c{
+      align-items: center !important;
+    }
+    
+  
+  //   阴影
+    .bs-s{
+      box-shadow: 0 0 6rpx rgba(0, 0, 0, 0.05) !important
+    }
+  
+    .bs-m{
+      box-shadow: 0 0 6rpx rgba(0, 0, 0, 0.1) !important
+    }
+    
+    
+    .bs-l{
+       box-shadow: 0 0 8rpx rgba(0,0,0,0.4) !important;
+    }
+
+    .bs-3d{
+      box-shadow: 8rpx 8rpx 8rpx rgba(0, 0, 0, 0.4) !important;
+   }
+    
+  
+  
+  
+    
+  //   边框圆角
+    .br-n{
+      border-radius: 0 !important;
+    }
+  
+    .br-s{
+      border-radius:4rpx !important;
+    }
+    .br-m{
+      border-radius: 8rpx !important;
+    }
+  
+    .br-l{
+      border-radius: 16rpx !important;
+    }
+  
+    .br-f{
+      border-radius: 999em !important;
+    }
+    
+    
+    // 用于控制元素如何处理超出容器的内容的功能类。
+    .overflow-a{
+      overflow: auto !important;
+    
+    }
+    
+    .overflow-s{
+      overflow: scroll !important;
+    }
+    
+    .overflow-h{
+      overflow: hidden !important;
+    }
+    .overflow-v{
+       overflow: visible !important;
+    }
+    
+    
+    // 用于控制元素中的换行符的功能类。
+    
+    .wb-ba{
+      word-break: break-all !important;
+    }
+    
+    .wb-bw{
+      overflow-wrap: break-word !important;
+    }
+  
+  
+  //   指定元素内的空白怎样处理
+  
+  .ws-n{
+      white-space:nowrap
+  }
+  .ws-p{
+      white-space:pre
+  }
+  
+  .ws-pw{
+      white-space:pre-wrap
+  }
+  
+  .ws-pl{
+      white-space:pre-line
+  }
+  
+  

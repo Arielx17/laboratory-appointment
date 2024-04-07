@@ -1,0 +1,64 @@
+{
+
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "实验室预约系统"
+				// "navigationStyle": "default" // 隐藏系统导航栏
+			}
+		}, 
+		
+		{
+			"path": "pages/add/add",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF"
+			}
+
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF"
+			}
+		
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF"
+			}
+		
+		}
+       
+     
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+
+		"list": [{
+				"pagePath": "pages/home/home"
+			},{
+				"pagePath": "pages/add/add"
+			},
+		
+			{
+				"pagePath": "pages/mine/mine"
+			}
+		]
+	}
+}

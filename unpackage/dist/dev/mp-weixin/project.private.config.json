@@ -1,0 +1,301 @@
+{
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/heart/heart",
+          "pathName": "pages/heart/heart",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/test/test",
+          "pathName": "pages/test/test",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/mine",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/test-introduce/test-introduce",
+          "pathName": "pages/test-introduce/test-introduce",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/test-table/test-table",
+          "pathName": "pages/test-table/test-table",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/service/service",
+          "pathName": "pages/service/service",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/expert/expert",
+          "pathName": "pages/expert/expert",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/expert-detail/expert-detail",
+          "pathName": "pages/expert-detail/expert-detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/expert-consult/expert-consult",
+          "pathName": "pages/expert-consult/expert-consult",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/heart/heart",
+          "pathName": "pages/heart/heart",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/video/video",
+          "pathName": "pages/video/video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/tweet/tweet",
+          "pathName": "pages/tweet/tweet",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/test-record/test-record",
+          "pathName": "pages/test-record/test-record",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/consult-record/consult-record",
+          "pathName": "pages/consult-record/consult-record",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/consult-detail/consult-detail",
+          "pathName": "pages/consult-detail/consult-detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/heart/heart",
+          "pathName": "pages/heart/heart",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/test/test",
+          "pathName": "pages/test/test",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/activity/activity",
+          "pathName": "pages/activity/activity",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/tweet/tweet",
+          "pathName": "pages/tweet/tweet",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/video/video",
+          "pathName": "pages/video/video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/expert/expert",
+          "pathName": "pages/expert/expert",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/mine",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/test-introduce/test-introduce",
+          "pathName": "pages/test-introduce/test-introduce",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/expert/expert",
+          "pathName": "pages/expert/expert",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/consult-record/consult-record",
+          "pathName": "pages/consult-record/consult-record",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/install/install",
+          "pathName": "pages/install/install",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/repair/repair",
+          "pathName": "pages/repair/repair",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/service-record/service-record",
+          "pathName": "pages/service-record/service-record",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/service-detail/service-detail",
+          "pathName": "pages/service-detail/service-detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine-info/mine-info",
+          "pathName": "pages/mine-info/mine-info",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/mine",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/service-detail/service-detail",
+          "pathName": "pages/service-detail/service-detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/mine",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/train/train",
+          "pathName": "pages/train/train",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/mine",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/mine",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/service-record/service-record",
+          "pathName": "pages/service-record/service-record",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "projectname": "yangfan",
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html"
+}
